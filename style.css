@@ -125,6 +125,10 @@ h2 {
   font-weight: bold;
 }
 
+.word-of-text-hidden {
+  display: none;
+}
+
 .number-character {
   font-size: 4rem;
   font-weight: bold;
@@ -133,9 +137,6 @@ h2 {
 .number-one {
   font-size: 8rem;
   font-weight: bold;
-}
-hr {
-  margin-top: 0;
 }
 
 
@@ -161,6 +162,19 @@ hr {
 
   .webdev {
     font-size: 3.5rem;
+  }
+
+  .word-of-text {
+    display: none;
+  }
+
+  .hide {
+    width: 0;
+  }
+  .word-of-text-hidden {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: bold;
   }
 }
 
