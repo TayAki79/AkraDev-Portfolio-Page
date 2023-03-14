@@ -1,0 +1,181 @@
+/* font-family: 'Amatic SC', cursive;
+font-family: 'Modak', cursive; */
+
+/* Header Section */
+
+.logo {
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.5rem;
+  color: black;
+  text-align: left;
+}
+
+.logo-dev {
+  font-family: 'Modak', cursive;
+  font-size: 3rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  font-family: 'Amatic SC', cursive;
+  text-decoration: none;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  width: 20px;
+  transform: translateY(3px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(2) {
+  transform: translateY(-4px) translateX(-14px) rotate(-45deg);
+}
+
+.bar {
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin-top: 5px;
+  margin-left: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+.bar:last-of-type {
+  width: 20px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: -100%;
+  left: 0;
+  padding-left: 0;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  transition: 1s ease-in-out;
+}
+
+.nav-menu.active {
+  top: 100px;
+  padding-left: 0;
+  left: 0;
+  transition: 1s ease-in-out;
+}
+
+.nav-link{
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
+.nav-link:hover{
+  color: #9b9aa0;
+}
+
+.nav-item {
+  margin: 10px;
+}
+
+#home.active {
+  margin-top: 344px;
+  transition: 1s ease-in-out;
+}
+
+#home {
+  margin-top: 0;
+  transition: 1s ease-in-out;
+}
+
+/* Home Section */
+
+img {
+  border-radius: 0 30px 0 30px;
+}
+
+h2 {
+  font-family: 'Amatic SC', cursive;
+}
+
+.name {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+hr {
+  margin-top: 0;
+}
+/* Media queries */
+/* 768px and above */
+@media screen and (min-width: 768px) {
+  .eyes-section {
+    margin-bottom: -13px;
+  }
+  
+  .eyes-text {
+    margin-bottom: 0;
+    text-align: left;
+    vertical-align: baseline;
+  }  
+  .name {
+    font-size: 3.8rem;
+  }
+}
+
+/* 992px and above */
+@media screen and (min-width: 992px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+  
+  .eyes-section {
+    margin-bottom: -18px;
+  }
+  
+  .eyes-text {
+    margin-bottom: 0;
+    text-align: left;
+    vertical-align: baseline;
+  }  
+  .name {
+    font-size: 5rem;
+  }
+}
+
+/* 1200px and above */
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 2rem;
+  }
+  
+  .logo-dev {
+    font-size: 4rem;
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+  
+  .eyes-section {
+    margin-bottom: -18px;
+  }
+  
+  .eyes-text {
+    margin-bottom: 0;
+    text-align: left;
+    vertical-align: baseline;
+  }  
+  .name {
+    font-size: 6.2rem;
+  }
+}
