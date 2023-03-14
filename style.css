@@ -125,10 +125,6 @@ h2 {
   font-weight: bold;
 }
 
-.word-of-text-hidden {
-  display: none;
-}
-
 .number-character {
   font-size: 4rem;
   font-weight: bold;
@@ -151,30 +147,31 @@ h2 {
     margin-bottom: -18px;
   }
   
+  .it-is-said-text {
+    margin-bottom: -30px;
+  }
+
+  .support-hr {
+    position: relative;
+    bottom: 50px
+  }
+
+  .good-one-text {
+    margin-bottom: 19px;
+  }
+
   .eyes-text {
     margin-bottom: 0;
     text-align: left;
     vertical-align: baseline;
-  }  
+  }
+
   .name {
     font-size: 3.8rem;
   }
 
   .webdev {
     font-size: 3.5rem;
-  }
-
-  .word-of-text {
-    display: none;
-  }
-
-  .hide {
-    width: 0;
-  }
-  .word-of-text-hidden {
-    display: block;
-    font-size: 2.5rem;
-    font-weight: bold;
   }
 }
 
@@ -183,18 +180,43 @@ h2 {
   .eyes-section {
     margin-bottom: -18px;
   }
+
+  .nose-section {
+    margin-bottom: -18px;
+  }
   
+  .it-is-said-text {
+    margin-bottom: -98px;
+  }
+
+  .support-hr {
+    position: relative;
+    bottom: 17px
+  }
+
+  .good-one-text {
+    margin-bottom: -15px;
+  }
   .eyes-text {
     margin-bottom: 0;
     text-align: left;
     vertical-align: baseline;
   }  
+
+  .word-of-text {
+    font-size: 3rem;
+  }
   .name {
     font-size: 5.4rem;
   }
 
   .webdev {
     font-size: 5.3rem;
+  }
+
+  .number-one {
+    font-size: 10rem;
+    margin-bottom: -17px;
   }
 }
 
