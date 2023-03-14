@@ -99,27 +99,51 @@ a {
 
 /* Home Section */
 
-img {
+.eyes-img {
   border-radius: 0 30px 0 30px;
+}
+
+.nose-img {
+  border-radius: 0 0 30px 30px;
 }
 
 h2 {
   font-family: 'Amatic SC', cursive;
 }
 
-.name {
+.name, .webdev {
   font-size: 3rem;
   font-weight: bold;
 }
 
+.word-of-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.number-character {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.number-one {
+  font-size: 8rem;
+  font-weight: bold;
+}
 hr {
   margin-top: 0;
 }
+
+
 /* Media queries */
 /* 768px and above */
 @media screen and (min-width: 768px) {
   .eyes-section {
     margin-bottom: -13px;
+  }
+
+  .nose-section {
+    margin-bottom: -18px;
   }
   
   .eyes-text {
@@ -130,14 +154,14 @@ hr {
   .name {
     font-size: 3.8rem;
   }
+
+  .webdev {
+    font-size: 3.5rem;
+  }
 }
 
 /* 992px and above */
 @media screen and (min-width: 992px) {
-  h2 {
-    font-size: 2.5rem;
-  }
-  
   .eyes-section {
     margin-bottom: -18px;
   }
@@ -148,7 +172,11 @@ hr {
     vertical-align: baseline;
   }  
   .name {
-    font-size: 5rem;
+    font-size: 5.4rem;
+  }
+
+  .webdev {
+    font-size: 5.3rem;
   }
 }
 
@@ -162,6 +190,15 @@ hr {
     font-size: 6rem;
   }
 
+  .hamburger.active .bar:nth-child(1) {
+    width: 40px;
+    transform: translateY(10px) rotate(45deg);
+  }
+  
+  .hamburger.active .bar:nth-child(2) {
+    transform: translateY(-4px) translateX(-27px) rotate(-45deg);
+  }
+
   .bar {
     width: 80px;
     height: 3px;
@@ -171,10 +208,6 @@ hr {
   
   .bar:last-of-type {
     width: 40px;
-  }
-  
-  h2 {
-    font-size: 3rem;
   }
   
   .eyes-section {
@@ -187,7 +220,11 @@ hr {
     vertical-align: baseline;
   }  
   .name {
-    font-size: 6rem;
+    font-size: 6.5rem;
+  }
+
+  .webdev {
+    font-size: 6.5rem;
   }
 }
 
@@ -210,10 +247,6 @@ hr {
   
   .bar:last-of-type {
     width: 40px;
-  }
-  
-  h2 {
-    font-size: 3rem;
   }
   
   .eyes-section {
