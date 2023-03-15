@@ -171,7 +171,7 @@ h2 {
   }
 
   hr {
-    margin: 16px 0;
+    margin: 16px;
   }
 
   .eyes-text {
@@ -179,9 +179,14 @@ h2 {
   }  
 
   .word-of-text {
-    font-size: 3rem;
+    font-size: 2rem;
   }
-  
+
+  .said {
+    font-size: 1.5rem;
+    margin-bottom: -8px;
+  }
+
   .name {
     font-size: 5.4rem;
   }
@@ -190,9 +195,13 @@ h2 {
     font-size: 5.3rem;
   }
 
+  .good-one {
+    margin-bottom: -14px;
+  }
+
   .number-one {
     font-size: 10rem;
-    margin-bottom: -17px;
+    margin-bottom: -45px;
   }
 }
 
