@@ -3,16 +3,47 @@ font-family: 'Modak', cursive; */
 
 /* Header Section */
 
-.logo {
-  font-family: 'Amatic SC', cursive;
-  font-size: 1.5rem;
-  color: black;
-  text-align: left;
+/* Fonts */
+
+.logo,
+.a,
+h2 {
+  font-family: "Amatic SC", cursive;
 }
 
 .logo-dev {
-  font-family: 'Modak', cursive;
+  font-family: "Modak", cursive;
+}
+
+/* Font Size */
+
+.logo-dev,
+.name,
+.webdev {
   font-size: 3rem;
+}
+
+/* Font Weight */
+
+.nav-link,
+.name,
+.webdev,
+.word-of-text,
+.number-character,
+.number-one {
+  font-weight: bold;
+}
+
+/* Color */
+
+.logo,
+.nav-link {
+  color: black;
+}
+
+.logo {
+  font-size: 1.5rem;
+  text-align: left;
 }
 
 li {
@@ -20,7 +51,6 @@ li {
 }
 
 a {
-  font-family: 'Amatic SC', cursive;
   text-decoration: none;
 }
 
@@ -73,13 +103,11 @@ a {
   transition: 1s ease-in-out;
 }
 
-.nav-link{
+.nav-link {
   font-size: 2rem;
-  font-weight: bold;
-  color: black;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: #9b9aa0;
 }
 
@@ -119,35 +147,22 @@ hr:nth-of-type(2) {
   border-radius: 30px 0 30px 0;
 }
 
-h2 {
-  font-family: 'Amatic SC', cursive;
-}
-
-.name, .webdev {
-  font-size: 3rem;
-  font-weight: bold;
-}
-
 .word-of-text {
   font-size: 2.5rem;
-  font-weight: bold;
 }
 
 .number-character {
   font-size: 4rem;
-  font-weight: bold;
 }
 
 .number-one {
   font-size: 6rem;
-  font-weight: bold;
 }
-
 
 /* Media queries */
 /* 768px and above */
 @media screen and (min-width: 768px) {
- .it-is-said-text {
+  .it-is-said-text {
     margin-bottom: -30px;
   }
 
@@ -176,7 +191,7 @@ h2 {
 
   .eyes-text {
     margin-bottom: 0;
-  }  
+  }
 
   .word-of-text {
     font-size: 2rem;
@@ -210,7 +225,7 @@ h2 {
   .logo {
     font-size: 3rem;
   }
-  
+
   .logo-dev {
     font-size: 6rem;
   }
@@ -219,7 +234,7 @@ h2 {
     width: 40px;
     transform: translateY(10px) rotate(45deg);
   }
-  
+
   .hamburger.active .bar:nth-child(2) {
     transform: translateY(-4px) translateX(-27px) rotate(-45deg);
   }
@@ -230,18 +245,18 @@ h2 {
     margin-top: 10px;
     margin-left: 0;
   }
-  
+
   .bar:last-of-type {
     width: 40px;
   }
-  
+
   .eyes-section {
     margin-bottom: -20px;
   }
-  
+
   .eyes-text {
     margin-bottom: 0;
-  }  
+  }
   .name {
     font-size: 6.5rem;
   }
@@ -270,7 +285,7 @@ h2 {
   .logo {
     font-size: 3rem;
   }
-  
+
   .logo-dev {
     font-size: 6rem;
   }
@@ -281,20 +296,20 @@ h2 {
     margin-top: 10px;
     margin-left: 0;
   }
-  
+
   .bar:last-of-type {
     width: 40px;
   }
-  
+
   .eyes-section {
     margin-bottom: -25px;
   }
-  
+
   .eyes-text {
     margin-bottom: 0;
     text-align: left;
     vertical-align: baseline;
-  }  
+  }
   .name {
     font-size: 7.8rem;
   }
