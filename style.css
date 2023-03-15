@@ -97,6 +97,14 @@ a {
   transition: 1s ease-in-out;
 }
 
+hr {
+  margin: 0;
+}
+
+hr:nth-of-type(2) {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
 /* Home Section */
 
 .eyes-img {
@@ -131,7 +139,7 @@ h2 {
 }
 
 .number-one {
-  font-size: 8rem;
+  font-size: 6rem;
   font-weight: bold;
 }
 
