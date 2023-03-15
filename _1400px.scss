@@ -1,0 +1,50 @@
+@media screen and (min-width: 1400px) {
+  .logo {
+    font-size: 3rem;
+  }
+
+  .logo-dev {
+    font-size: 6rem;
+  }
+
+  .bar {
+    width: 80px;
+    height: 3px;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .bar:last-of-type {
+    width: 40px;
+  }
+
+  .eyes-section {
+    margin-bottom: -25px;
+  }
+
+  .eyes-text {
+    margin-bottom: 0;
+    text-align: left;
+    vertical-align: baseline;
+  }
+  .name {
+    font-size: 7.8rem;
+  }
+
+  .nose-section {
+    margin-bottom: -30px;
+  }
+
+  .webdev {
+    font-size: 7.8rem;
+  }
+
+  .it-is-said-text {
+    margin-bottom: 10px;
+  }
+
+  .number-one {
+    font-size: 14rem;
+    margin-bottom: -67px;
+  }
+}

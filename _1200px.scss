@@ -1,0 +1,58 @@
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 3rem;
+  }
+
+  .logo-dev {
+    font-size: 6rem;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    width: 40px;
+    transform: translateY(10px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    transform: translateY(-4px) translateX(-27px) rotate(-45deg);
+  }
+
+  .bar {
+    width: 80px;
+    height: 3px;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .bar:last-of-type {
+    width: 40px;
+  }
+
+  .eyes-section {
+    margin-bottom: -20px;
+  }
+
+  .eyes-text {
+    margin-bottom: 0;
+  }
+  .name {
+    font-size: 6.5rem;
+  }
+
+  .webdev {
+    font-size: 6.5rem;
+  }
+
+  .said {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+  }
+
+  .word-of-text {
+    font-size: 3rem;
+  }
+
+  .number-one {
+    font-size: 12rem;
+    margin-bottom: -45px;
+  }
+}
