@@ -169,28 +169,19 @@ h2 {
   .nose-section {
     margin-bottom: -18px;
   }
-  
-  .it-is-said-text {
-    margin-bottom: -98px;
+
+  hr {
+    margin: 16px 0;
   }
 
-  .support-hr {
-    position: relative;
-    bottom: 17px
-  }
-
-  .good-one-text {
-    margin-bottom: -15px;
-  }
   .eyes-text {
     margin-bottom: 0;
-    text-align: left;
-    vertical-align: baseline;
   }  
 
   .word-of-text {
     font-size: 3rem;
   }
+  
   .name {
     font-size: 5.4rem;
   }
