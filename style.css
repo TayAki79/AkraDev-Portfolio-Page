@@ -5,7 +5,7 @@ font-family: 'Modak', cursive; */
 body {
   background-color: black;
   animation-name: fade-out;
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-fill-mode: forwards;
 }
 
