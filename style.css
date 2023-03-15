@@ -147,15 +147,7 @@ h2 {
 /* Media queries */
 /* 768px and above */
 @media screen and (min-width: 768px) {
-  .eyes-section {
-    margin-bottom: -13px;
-  }
-
-  .nose-section {
-    margin-bottom: -18px;
-  }
-  
-  .it-is-said-text {
+ .it-is-said-text {
     margin-bottom: -30px;
   }
 
