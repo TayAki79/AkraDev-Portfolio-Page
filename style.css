@@ -5,13 +5,27 @@ font-family: 'Modak', cursive; */
 body {
   background-color: black;
   animation-name: fade-out;
-  animation-duration: 3s;
+  animation-duration: 10s;
   animation-fill-mode: forwards;
 }
 
-.container {
+.eyes-img, .nose-img, .mouth-img {
   opacity: 0;
-  animation-name: fade-in;
+  animation-name: fade-in-images;
+  animation-duration: 6s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+hr,
+.nav-container,
+.eyes-section,
+.nose-section,
+.mouth-section1,
+.mouth-section2,
+.mouth-section3 {
+  opacity: 0;
+  animation-name: fade-in-text;
   animation-duration: 3s;
   animation-delay: 4s;
   animation-fill-mode: forwards;
@@ -31,12 +45,26 @@ body {
   }
 }
 
-@keyframes fade-in {
+@keyframes fade-in-images {
   0% {
     opacity: 0;
   }
 
-  25% {
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-text {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
     opacity: 0.5;
   }
 
